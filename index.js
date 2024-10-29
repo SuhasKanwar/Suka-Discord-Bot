@@ -21,12 +21,17 @@ client.on('messageCreate', (message) => {
             content: "Generating Short ID for " + url
         });
     }
-    else{
+    if(message.content.toLowerCase() === 'hi suka'){
         message.reply({
-            content: "Hi from the bot"
+            content: "Hi from the Suka your friendly bot"
         });
     }
 });
+async function translate(text, sourceLang = 'en', targetLang = 'es') {
+    const response = await fetch(`https://lingva.ml/api/v1/${sourceLang}/${targetLang}/${encodeURIComponent(text)}`);
+    const data = await response.json();
+    return data.translation;
+}
 
 client.on('interactionCreate', (interaction) => {
     interaction.reply("Pong !!!");
