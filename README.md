@@ -1,5 +1,9 @@
 # Suka (Discord Bot) 🌍🤖
 
+![Project_018_Discord_Bot_01](https://github.com/user-attachments/assets/a372ee32-f12b-460e-b9f6-6ed0e83f39ff)
+
+![Project_018_Discord_Bot_02](https://github.com/user-attachments/assets/b56cf750-e29f-4379-ad77-c32fe8d746f3)
+
 Welcome to the **Suka Discord Bot**! This bot is designed to help users translate text across multiple languages effortlessly and provide various utility commands. With its interactive features and easy-to-use commands, Suka aims to enhance your Discord experience.
 
 ## Features ✨
