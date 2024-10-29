@@ -14,32 +14,6 @@ Welcome to the **Suka Discord Bot**! This bot is designed to help users translat
 - **Interactive Greetings**: Enjoy personalized greetings based on the time of day.
 - **Easter Eggs**: Fun responses to common phrases!
 
-## Installation 🚀
-
-To get started with the Suka bot, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/SuhasKanwar/Suka-Discord-Bot.git
-   cd Suka-Discord-Bot
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables**:
-   Create a `.env` file in the root directory and add your Discord bot token:
-   ```
-   DISCORD_BOT_TOKEN=YOUR_BOT_TOKEN_HERE
-   ```
-
-4. **Run the bot**:
-   ```bash
-   node index.js
-   ```
-
 ## Usage 💻
 
 Once the bot is running, invite it to your Discord server using the following link:
