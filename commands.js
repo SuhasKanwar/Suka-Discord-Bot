@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 const { languageUtils } = require('./languages');
 const { config, utils } = require('./utils');
 
-async function translate(text, sourceLang = 'en', targetLang = 'es') {
+async function translate(text, sourceLang = 'en', targetLang = 'en') {
     const response = await fetch(`https://lingva.ml/api/v1/${sourceLang}/${targetLang}/${encodeURIComponent(text)}`);
     const data = await response.json();
     return data.translation;
