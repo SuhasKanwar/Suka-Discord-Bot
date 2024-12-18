@@ -26,10 +26,11 @@ client.on('interactionCreate', handleInteraction);
 client.login(process.env.DISCORD_BOT_TOKEN);
 
 app.get('/', (req, res) => {
-    return res.write("Bot is live and working fine\nUse this link to add it to your discord -> https://discord.com/oauth2/authorize?client_id=1284383939896803349&permissions=8&integration_type=0&scope=bot")
+    res.write("Bot is live and working fine\nUse this link to add it to your discord -> https://discord.com/oauth2/authorize?client_id=1284383939896803349&permissions=8&integration_type=0&scope=bot");
+    res.end();
 })
 
-app.listen(PORT, (err) => {
+app.listen(PORT, '0.0.0.0', (err) => {
     if(err){
         console.log("Error creating the server")
     }
